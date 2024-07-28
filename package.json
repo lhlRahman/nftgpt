@@ -1,0 +1,37 @@
+{
+  "name": "web-racer-backend",
+  "version": "1.0.0",
+  "description": "Backend for Web Racer game using Unique Network",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc app.ts && node app.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@unique-nft/accounts": "^0.3.7",
+    "@unique-nft/schemas": "^2.1.7",
+    "@unique-nft/sdk": "^0.7.7",
+    "@unique-nft/sr25519": "^0.0.2",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^5.3.0",
+    "firebase": "^10.12.4",
+    "form-data": "^4.0.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.53.2",
+    "uuid": "^10.0.0",
+    "v4": "^0.0.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "typescript": "^5.5.4"
+  }
+}
